@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "694293834535",
+    "firebase_url": "https://appcamera-5f4f1.firebaseio.com",
+    "project_id": "appcamera-5f4f1",
+    "storage_bucket": "appcamera-5f4f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694293834535:android:8d554bc2e0e18b8c",
+        "android_client_info": {
+          "package_name": "com.example.tiagoiwamoto.appcamera"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694293834535-9tl8ock4j06fp7k63rgt6cpvavvscb6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tiagoiwamoto.appcamera",
+            "certificate_hash": "f725229dbcd2730dc294663ae09632d7d7a3311b"
+          }
+        },
+        {
+          "client_id": "694293834535-4vh0c0jial4idncfcmngjdmntri9gko5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjS08lQnVIkA2AhhZPJTfSd36cSRpS5d8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694293834535-4vh0c0jial4idncfcmngjdmntri9gko5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
