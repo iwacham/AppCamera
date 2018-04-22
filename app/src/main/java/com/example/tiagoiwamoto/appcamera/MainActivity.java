@@ -166,7 +166,7 @@ public class MainActivity extends Activity {
         Bitmap thumbnail = (Bitmap) data.getExtras().get("data");
         /*Aqui criamos um arquivo para salvar a imagem obtida da camera*/
         ByteArrayOutputStream bytes = new ByteArrayOutputStream();
-        thumbnail.compress(Bitmap.CompressFormat.JPEG, 90, bytes);
+        thumbnail.compress(Bitmap.CompressFormat.PNG, 90, bytes);
         /*Environment.getExternalStoragePublicDirectory salvará a imagem em um diretório manipulável pelo usuário*/
         File destination = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES),
                 System.currentTimeMillis() + ".png");
