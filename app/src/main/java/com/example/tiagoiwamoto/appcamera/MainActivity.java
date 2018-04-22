@@ -169,7 +169,7 @@ public class MainActivity extends Activity {
         thumbnail.compress(Bitmap.CompressFormat.JPEG, 90, bytes);
         /*Environment.getExternalStoragePublicDirectory salvará a imagem em um diretório manipulável pelo usuário*/
         File destination = new File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES),
-                System.currentTimeMillis() + ".jpg");
+                System.currentTimeMillis() + ".png");
         FileOutputStream fo;
         try {
             boolean result=Utility.checkPermission(MainActivity.this);
